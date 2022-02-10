@@ -1,9 +1,17 @@
 package com.company.task3;
 
 public class Accumulation {
-    int i = 0;
-    int sum = 0;
-    int[] tut = new int[5];
+   private int i = 0;
+   private double sum = 0;
+   private int[] tut = new int[5];
+      
+   public int getI (){
+       return i;
+   }
+   
+   public double getSum (){
+       return sum;
+   }
 
     public void accumulate (int y) {
         if (i == 5) {
